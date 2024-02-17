@@ -1,0 +1,33 @@
+
+body{
+    background-color: whitesmoke;
+}
+.caption{
+ 
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 1.75rem;
+    
+   
+}
+h1{
+    font-family: Impact;
+    font-size: 5rem;
+}
+button{
+    padding: 28px 80px;
+    background-color: blue;
+    color: white;
+    border: 2px solid black;
+    font-size: 16px;
+    transition: all .5s;
+}
+button:hover{
+    background-color: #008000;
+
+}
+@media screen  and (max-width : 576px){
+    html{
+        font-size: 15px;  
+    }
+}
